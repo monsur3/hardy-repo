@@ -6,20 +6,28 @@ body{
 .text-primary{
     color: #FD6E0A
 }
-.btn-primary {
+.btn-primary{
     color: #fff;
     background-color: #FD6E0A;
-    border-radius:2px;
+    border-radius:5px;
     border: none;
     font-size: 20px;
     font-weight: 700;
     padding: 18px 35px;
 }
+.btn-con{
+    color: #FD6E0A;
+    font-size: 20px;
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+}
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 230px;
+    margin: 0 230px 0 150px;
 }
 .nav-title{
     color: #181818;
@@ -40,12 +48,32 @@ nav a{
 }
 .header {
     background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .banner .dp{
     width: 500px;
+}
+.banner-greeting{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0px;
+}
+.banner-title{
+    font-size: 85px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner-des{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    max-width: 550px;
+    color: #757575;
 }
